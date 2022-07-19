@@ -6,13 +6,19 @@ nav {
   align-items: center;
   width: 100%;
   height: 3rem;
-  background-color: black;
+  background-color: rgb(8, 45, 69);
   padding: 0 1rem;
   box-sizing: border-box;
 }
 
+nav > .branding {
+  color: white;
+  font-size: 1.4rem;
+}
+
 nav > .search-bar {
-  justify-content: flex-end;
+  margin-left: auto;
+  padding-right: 10px;
 }
 
 nav > .search-bar > input {
@@ -22,19 +28,22 @@ nav > .search-bar > input {
   padding: 8px 10px;
 }
 
-nav > .branding {
-  color: white;
-  font-size: 1.4rem;
+nav > .search-bar > submit-btn {
+  margin-left: auto;
+  border-radius: 6px;
+  border: none;
+  padding: 8px 10px;
 }
 
 nav > .menu-buttons {
-  margin-left: auto;
+  margin-left: end;
 }
 
 nav > .menu-buttons > button {
   padding: 8px 10px;
   border-radius: 6px;
   border: none;
+  color: rgb(8, 45, 69);
 }
 
 nav > .menu-buttons > button:not(:last-child) {
