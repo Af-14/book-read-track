@@ -1,17 +1,12 @@
 h2 {
   color: lightblue;
-  padding: 2rem 3rem;
 }
 
-h4 {
-  color: lightblue;
-}
-
-.current-book {
+.top-book {
   padding: 2rem 5rem;
 }
 
-.current-book > .data-current {
+.top-book > .data-current {
   background-color: lightblue;
   opacity: 10%;
   max-width: 100%;

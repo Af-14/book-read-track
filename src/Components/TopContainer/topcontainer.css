@@ -1,9 +1,21 @@
-h2 {
-  color: lightblue;
-  padding: 2rem 3rem;
+.search {
+  text-align: center;
 }
 
-h4 {
+.search > input {
+  border-radius: 6px;
+  border: none;
+  padding: 8px 10px;
+}
+
+.search > button {
+  border-radius: 6px;
+  border: none;
+  padding: 8px 10px;
+  margin-left: 3px;
+}
+
+h2 {
   color: lightblue;
 }
 
